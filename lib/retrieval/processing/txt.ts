@@ -25,5 +25,6 @@ export const processTxt = async (txt: Blob): Promise<FileItemChunk[]> => {
     })
   }
 
-  return anike
+  return chunk
+  
 }
